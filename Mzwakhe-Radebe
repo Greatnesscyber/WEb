@@ -1,0 +1,76 @@
+Copy code
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Greatness Creations</title>
+  <style>
+    /* Add some styling for the greatness creations */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    nav {
+      background-color: #003366;
+      color: #fff;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .card {
+      width: 30%;
+      background-color: #f2f2f2;
+      margin: 10px;
+      padding: 10px;
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #f2f2f2;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#">Greatness Creations</a>
+    <a href="#">About</a>
+    <a href="#">Admissions</a>
+    <a href="#">Academics</a>
+    <a href="#">Research</a>
+  </nav>
+
+  <div class="container">
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200.png?text=Image+1" alt="Image 1">
+      <h2>News Headline 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et leo euismod, laoreet mauris non, venenatis nunc.</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200.png?text=Image+2" alt="Image 2">
+      <h2>News Headline 2</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et leo euismod, laoreet mauris non, venenatis nunc.</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200.png?text=Image+3" alt="Image 3">
+      <h2>News Headline 3</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et leo euismod, laoreet mauris non, venenatis nunc.</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; Greatness Creations 2023
+  </footer>
+</body>
+</html>
